@@ -7,9 +7,13 @@ export default function useLocalStorage() {
         return valorLocal ? JSON.parse(valorLocal) : null
     }, [])
 
+    const remove = useCallback((chave: string) => {
+        window?.localStorage?.removeItem(chave)
+    }, [])
+
     const set = useCallback((chave: string, valor: any) => {
         window?.localStorage?.setItem(chave, JSON.stringify(valor))
     }, [])
 
-    return { get, set }
+    return { get, set, remove }
 }
