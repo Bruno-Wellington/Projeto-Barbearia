@@ -18,10 +18,24 @@ export default function App() {
                         <Stack.Screen 
                             name="Cadastro" 
                             component={Cadastro}
-                            options={{ headerShown: false }}
+                            options={{ 
+                                headerShown: false, 
+                            }}
                         />
-                        <Stack.Screen name="Principal" component={Principal}/>
-                        <Stack.Screen name="Sumario" component={Sumario}/>
+                        <Stack.Screen 
+                            name="Principal" 
+                            component={Principal}
+                            options={{ 
+                                headerShown: false, 
+                            }}
+                        />
+                        <Stack.Screen 
+                            name="Sumario" 
+                            component={Sumario}
+                            options={{ 
+                                headerShown: false, 
+                            }}
+                        />
                     </Stack.Navigator>
                 </NavigationContainer>
             </ProvedorAgendamento>
