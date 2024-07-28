@@ -1,7 +1,7 @@
 import { TelefoneUtils } from '@barba/core'
 import { StyleSheet, Text, TextInput, Pressable, View, ImageBackground, Image } from 'react-native'
 import useUsuario from '../data/hooks/useUsuario'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import useFormUsuario from '../data/hooks/useFormUsuario'
 
 export default function Cadastro({ navigation }: any) {
