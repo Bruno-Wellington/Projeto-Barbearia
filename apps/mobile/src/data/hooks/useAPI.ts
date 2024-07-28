@@ -1,8 +1,8 @@
 import { useCallback } from 'react'
 
-const URL_BASE = 'http://10.0.2.2:3005' // Android
-//const URL_BASE = 'http://localhost:3005' // IOS
-//const URL_BASE = 'http://localhost:3001' // process.env.URL_BASE
+const URL_BASE = 'http://10.0.2.2:3005' //process.env.URL_BASE //Android
+//const URL_BASE = 'http://localhost:3005' //process.env.URL_BASE //IOS
+//const URL_BASE = 'http://localhost:3001' //process.env.URL_BASE
 
 export default function useAPI() {
     console.log('URL_BASE', URL_BASE)
