@@ -3,7 +3,7 @@ import { Servico } from '@barba/core'
 import { useRouter } from 'next/navigation'
 import ServicoItem from './ServicoItem'
 import Titulo from '../shared/Titulo'
-import useServicos from '@/data/hooks/useServicos'
+import { useServicos } from '@barba/ui'
 
 export default function NossosServicos() {
     const router = useRouter()

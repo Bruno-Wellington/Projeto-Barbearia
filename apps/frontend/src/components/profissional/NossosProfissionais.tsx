@@ -2,7 +2,7 @@
 import { Profissional } from '@barba/core'
 import ProfissionalItem from '@/components/profissional/ProfissionalItem'
 import Titulo from '@/components/shared/Titulo'
-import useProfissionais from '@/data/hooks/useProfissionais'
+import { useProfissionais } from '@barba/ui'
 
 export default function NossosProfissionais() {
     const { profissionais } = useProfissionais()
